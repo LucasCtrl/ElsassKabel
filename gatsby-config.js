@@ -31,6 +31,14 @@ module.exports = {
       },
       __key: 'pages',
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'products',
+        path: './src/products/',
+      },
+      __key: 'products',
+    },
     'gatsby-plugin-postcss',
   ],
 }
